@@ -1,0 +1,20 @@
+.main{
+  border: solid red;
+  display: flex;  
+  justify-content: space-around;
+}
+
+.info{
+  border: solid;
+  padding: 5rem 0 2rem 3rem;
+  h1{
+    color: #205691;
+    font-size: 5.6rem;
+     font-family:'Source Sans 3', sans-serif;
+
+  }
+}
+
+img{
+  max-width: 100%;
+}

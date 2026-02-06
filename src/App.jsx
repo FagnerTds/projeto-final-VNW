@@ -7,13 +7,13 @@ import Usuario from "./pages/usuario/Usuario"
 import PaginaInicial from "./pages/paginaInicial/PaginaInicial"
 import Mentoria from "./pages/mentoria/Mentoria"
 import Header from "./components/header/Header"
+import Footer from "./components/footer/Footer"
 
 export default function App() {
   return (
     <BrowserRouter>
     <Header />
-      <Routes>
-        
+      <Routes>        
         <Route path="/" element={<PaginaInicial/>}/>
         <Route path="/doacao" element={<Doacao/>}/>
         <Route path="/eventos" element={<EventosEPalestras />}/>
@@ -21,6 +21,7 @@ export default function App() {
         <Route path="/voluntariado" element={<Voluntariado/>}/>
         <Route path="/usuario" element={<Usuario/>}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

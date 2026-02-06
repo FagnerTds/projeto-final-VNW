@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./paginaInicial.module.scss";
-import banner from '../../assets/imagens/banner.png'
+import banner from "../../assets/imagens/banner.png";
 
 export default function PaginaInicial() {
   return (
@@ -28,6 +28,7 @@ export default function PaginaInicial() {
         </section>
       </section>
       <img
+        className={s.banner}
         src={banner}
         alt="Imagem de mãos segurando o globo terrestre representando a responsibilidade social e ambiental"
       />

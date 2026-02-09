@@ -1,9 +1,13 @@
-import React from 'react'
+import PaginaPadrao from '../../components/cards/PaginaPadrao/PaginaPadrao'
+import dados from "./dadosEventos"
 
 export default function EventosEPalestras() {
   return (
     <main>
-      <h1>Página de Eventos e Palestras</h1>
+      <PaginaPadrao 
+        titulo = "Eventos & Palestras"
+        dados = {dados}
+      />
     </main>
   )
 }

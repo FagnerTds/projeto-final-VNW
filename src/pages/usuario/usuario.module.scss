@@ -1,0 +1,50 @@
+.mainUser{
+  max-width: 1200px;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+
+  section{    
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid #EFEEEA;
+    border-radius: 30px;
+    align-items: center;
+    gap: 40px;
+    
+    .img{
+      max-width: 100%;
+      border-radius: 50%;
+      border: solid 5px #00AAFF;
+      flex: 2;
+    }   
+  }
+}
+.descricoes{
+  flex: 1;
+   h3{
+      font-size: 2.25rem;      
+    }
+
+    span{
+      color: #278733;
+      font-weight: 500;
+    }
+    p{
+      margin: 20px 0 10px;
+    }
+
+    .container{
+      display: flex;
+      gap: 30px;
+    }
+
+    .icones{
+      display: flex;
+      align-items: center;
+    }
+}

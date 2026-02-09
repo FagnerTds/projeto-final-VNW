@@ -1,9 +1,13 @@
-import React from 'react'
+import PaginaPadrao from '../../components/cards/PaginaPadrao/PaginaPadrao'
+import dados from"./dadosVoluntariado"
 
 export default function Voluntariado() {
   return (
     <main>
-      <h1>Página Voluntariado</h1>
+      <PaginaPadrao 
+      titulo = "Voluntariado"
+      dados = {dados}
+      />
     </main>
   )
 }

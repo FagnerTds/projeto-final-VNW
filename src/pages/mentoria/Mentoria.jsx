@@ -1,9 +1,13 @@
-import React from 'react'
+import PaginaPadrao from '../../components/cards/PaginaPadrao/PaginaPadrao'
+import dados from "./dadosMentoria"
 
 export default function Mentoria() {
   return (
     <main>
-      <h1>Pagina de Mentoria</h1>
+      <PaginaPadrao 
+        titulo = "Mentoria"
+        dados = {dados}
+      />
     </main>
   )
 }

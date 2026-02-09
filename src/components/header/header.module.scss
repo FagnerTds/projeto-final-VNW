@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 .header {
-  height: 100px;
+  height: 12vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,8 +45,10 @@
 .navUser{
   position: absolute;
   right: 0;
-  top: 6rem;
+  top: 5rem;
   background-color: #205691;
+  z-index: 3;
+  padding: 10px 0;
 
   a{
     display: block;

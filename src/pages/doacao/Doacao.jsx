@@ -1,9 +1,11 @@
-import React from 'react'
+import PaginaPadrao from '../../components/cards/PaginaPadrao/PaginaPadrao'
+import dados from "./dadosDoacao"
 
 export default function Doacao() {
   return (
-    <main>
-      <h1>Página de Doações</h1>
-    </main>
+    <PaginaPadrao 
+      titulo="Doação"    
+      dados={dados}
+    />
   )
 }

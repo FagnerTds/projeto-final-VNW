@@ -20,7 +20,7 @@ $second-font: Helvetica, sans-serif;
   }
   p {
     color: $main-color;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: $second-font;
     line-height: 1.5;
   }
@@ -103,10 +103,19 @@ $second-font: Helvetica, sans-serif;
       h2{
         font-size: 2rem;
       }
+      h3{
+        font-size: .9rem;
+      }
     }
   }
   .banner{
-    max-width: 100%;
-    border-radius: 30%;
+    width: 70%;
+    border-radius: 30%
+  }
+}
+@media(max-width: 299px){
+  .infoDados{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

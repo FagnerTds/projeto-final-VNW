@@ -1,7 +1,7 @@
 import Card from "../Card/Card"
 import s from "./CardList.module.scss"
 
-export default function CardList({dados}) {
+export default function CardList({dados, onAction}) {
   return (
     <div className={s.grid}>
       {dados.map((item)=>(
@@ -12,6 +12,7 @@ export default function CardList({dados}) {
           titulo={item.titulo}
           descricao={item.descricao}
           textoBotao={item.textoBotao}
+          onAction={onAction}
         />
       ))}
       

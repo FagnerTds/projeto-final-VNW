@@ -1,0 +1,60 @@
+.mentoria {
+  position: relative;
+}
+
+.tooltbox {
+  border: solid #ccc;
+  border-radius: 10px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 30px 60px 30px 10px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  gap: 20px;
+  z-index: 3;
+  overflow: hidden;
+  animation: aparecer .9s forwards;
+
+  p {
+    font-size: 1.3rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    color: #444;
+  }
+  .tollImage {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background: #4caf50;
+    animation: loading 4s linear forwards;
+    width: 100%;
+  }
+}
+@keyframes loading {
+  from{
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  to{
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+}
+@keyframes aparecer{
+  from{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

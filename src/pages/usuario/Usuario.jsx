@@ -16,10 +16,10 @@ export default function Usuario() {
         <div className={s.descricoes}>
           <h3>Fagner Tranquilino dos Santos</h3>
           <span>Aluno em desenvolvimento</span>
-          <p>
+          <h4>
             Buscando seu lugar no mundo da programação, embasando conhecimentos
             e explorando suas possibilidades. Programa um pouco em algumas linguagens, possui certificação Cloud Practitioner.
-          </p>
+          </h4>
           <div className={s.container}>
             <div className={s.icones}>
               <img src={local} alt="incone de localização" />

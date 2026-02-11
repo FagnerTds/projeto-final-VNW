@@ -8,6 +8,7 @@
   gap: 1rem;
   padding: 30px 20px;
   position: relative;
+
   .descricao {
     flex: 1;
     display: flex;
@@ -21,7 +22,7 @@
   }
   h3 {
     font-size: 1.8rem;
-    font-family: 'Source Sans 3", sans-serif';
+    font-family: 'Source Sans 3', sans-serif;
     color: #122f97;
   }
   p {
@@ -37,6 +38,8 @@
     border: none;
     color: #fff;
     background-color: #205691;
+    
+  box-shadow: 2px 3px 6px 1px #aaa;
   }
 }
 

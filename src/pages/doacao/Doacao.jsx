@@ -6,6 +6,7 @@ export default function Doacao() {
     <PaginaPadrao 
       titulo="Doação"    
       dados={dados}
+      mensagem={"Obrigado por Doar!"}
     />
   )
 }

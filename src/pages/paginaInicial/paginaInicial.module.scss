@@ -31,7 +31,8 @@ $second-font: Helvetica, sans-serif;
     border: none;
     padding: 20px 40px;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 600;    
+    box-shadow: 3px 3px 8px 2px #aaa;
   }
   button:hover {
     background-color: #f85145;
